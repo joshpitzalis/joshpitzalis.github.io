@@ -10,9 +10,10 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
 
   </head>
-  <body>
+  <body class='gentium'>
 
     <nav class="db dt-l w-100 border-box pt3 pa3">
       <a class="db dtc-l v-mid mid-gray link w-100 w-50-l tc tl-l mb2 mb0-l" href="./index.html#contact" title="Home">
@@ -34,7 +35,7 @@
         "Super easy to work with."
       </p>
       <p>
-        <em>- Kristin Braddock,
+        <em>- <a href='https://twitter.com/kbradd'>Kristin Braddock</a>,
         <br/>Founder of Sewing New Futures</em>
       </p>
     </div>
@@ -43,7 +44,7 @@
         "Josh was a delight to work with; always cooperative, creative, responsive and technically excellent at his job - went above and beyond."
       </p>
       <p>
-        <em>- Bec Evans and Chris Smith, <br/>
+        <em>- <a href='https://twitter.com/eva_bec'>Bec Evans</a> and <a href='https://twitter.com/word_smiths'>Chris Smith</a>, <br/>
           Founders of Prolifiko</em>
       </p>
     </div>
@@ -52,7 +53,7 @@
         "Working with Josh was a great experience. His sense of design, aesthetics and flow of information was amazing. I am very pleased with his work and recommend him very highly."
       </p>
       <p>
-        <em>- Raju Arora, <br/>Founder of Kahanibaaz</em>
+        <em>- <a href='https://twitter.com/rajuaroraxo'>Raju Arora</a>, <br/>Founder of Kahanibaaz</em>
       </p>
     </div>
     <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
@@ -60,7 +61,7 @@
         "Joshua was extremely detail oriented and thorough in this project. I would highly recommend him to anyone wanting a quality developer."
       </p>
       <p>
-        <em>- Eric Schuster, <br/>Founder of Fresh Look Web Design</em>
+        <em>- <a href='https://twitter.com/freshlookweb'>Eric Schuster</a>, <br/>Founder of Fresh Look Web Design</em>
       </p>
     </div>
   </section>
@@ -158,13 +159,10 @@
         <p class="f6 db b ttu lh-solid">© 2016</p>
       </div>
 
-  <a class="link dim gray dib h2 w2 br-100 mr3 pa2 bg-near-white ba b--black-10" href="https://twitter.com/joshpitzalis" title="">
-    <svg data-icon="twitter" viewBox="0 0 32 32" style="fill:currentcolor">
-      <title>twitter icon</title>
-      <path d="M2 4 C6 8 10 12 15 11 A6 6 0 0 1 22 4 A6 6 0 0 1 26 6 A8 8 0 0 0 31 4 A8 8 0 0 1 28 8 A8 8 0 0 0 32 7 A8 8 0 0 1 28 11 A18 18 0 0 1 10 30 A18 18 0 0 1 0 27 A12 12 0 0 0 8 24 A8 8 0 0 1 3 20 A8 8 0 0 0 6 19.5 A8 8 0 0 1 0 12 A8 8 0 0 0 3 13 A8 8 0 0 1 2 4"></path>
-    </svg>
-  </a>
-
+      <a class="twitter-follow-button"
+  href="https://twitter.com/joshpitzalis"
+  data-size="large">
+Follow @joshpitzalis</a>
 
 </footer>
 
@@ -179,5 +177,21 @@
   ga('send', 'pageview');
 
 </script>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
   </body>
 </html>
