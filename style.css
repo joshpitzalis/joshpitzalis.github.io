@@ -652,6 +652,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .calisto { font-family: "Calisto MT", serif; }
 .garamond { font-family: garamond, serif; }
 .baskerville { font-family: baskerville, serif; }
+.gentium { font-family: 'Gentium Book Basic', serif; }
 /*
    FONT STYLE
    Docs: http://tachyons.io/docs/typography/font-style/
