@@ -6,6 +6,17 @@ a {
   background-color: #85AF4B;
 }
 
+.bg-dark-cucumber {
+  background-color: #709449;
+}
+
+.light-white {
+  color: #f8faf5
+}
+
+body {
+  background-color: #f8faf5
+}
   /*! TACHYONS v4.4.3 | http://tachyons.io */
 
 /*
