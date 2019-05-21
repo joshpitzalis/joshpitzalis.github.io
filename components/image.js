@@ -1,10 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { SimpleImg } from 'react-simple-img'
+import PropTypes from "prop-types";
+import React from "react";
+import { SimpleImg } from "react-simple-img";
 
-const columnWidth = 980
+const columnWidth = 980;
 
-function Image({ width, height, captionSpacing, caption, src }) {
+function Image({ width, height, captionSpacing, caption, src, round }) {
   return (
     <figure>
       <SimpleImg {...{ src, height, width, applyAspectRatio: true }} />
@@ -15,25 +15,27 @@ function Image({ width, height, captionSpacing, caption, src }) {
       )}
       <style jsx>{`
         margin: 40px 0;
+        border-radius: ${round ? " 100%" : "0"};
+
         @media (min-width: 1200px) {
           figure {
             width: ${width}px;
             height: ${height}px;
             ${width < columnWidth
-              ? 'margin: 0 auto;'
+              ? "margin: 0 auto;"
               : `margin-left: -${(width - columnWidth) /
                   2}px;`} overflow: hidden;
           }
           p {
             color: #999;
             font-size: 12px;
-            margin: 0;
+            margin: 0px;
             text-align: center;
           }
         }
       `}</style>
     </figure>
-  )
+  );
 }
 
 Image.propTypes = {
@@ -42,6 +44,6 @@ Image.propTypes = {
   caption: PropTypes.string,
   captionSpacing: PropTypes.string,
   src: PropTypes.string.isRequired
-}
+};
 
-export default React.memo(Image)
+export default React.memo(Image);
