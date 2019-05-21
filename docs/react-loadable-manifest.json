@@ -1,0 +1,10 @@
+{
+  "react-typeform-embed/lib/ReactTypeformEmbed": [
+    {
+      "id": "16Al",
+      "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+      "file": "static/chunks/6.98506cb9f7dc3edfd528.js",
+      "publicPath": "static/chunks/6.98506cb9f7dc3edfd528.js"
+    }
+  ]
+}

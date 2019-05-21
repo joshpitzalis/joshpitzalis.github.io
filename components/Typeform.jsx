@@ -41,7 +41,7 @@ const ReactTypeformEmbed = dynamic(
 export default () => (
   <div>
     <ReactTypeformEmbed
-      url="https://josh407.typeform.com/to/hxjToF"
+      url="https://joshpitzalis.typeform.com/to/hxjToF"
       style={{ width: "100%", height: "500px", position: "relative" }}
       hideHeaders
       hideFooter
