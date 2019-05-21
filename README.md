@@ -1,1 +1,1 @@
-![](https://github.com/evilrabbit/art/blob/master/homepage/repository-banner.png?raw=true)
+![](https://github.com/joshpitzalis/joshpitzalis.github.io/blob/master/static/og-image.png)
