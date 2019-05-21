@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../components/header";
 import Image from "../components/image";
-
+import Typeform from "../components/Typeform";
 export default () => (
   <main>
     <Head>
@@ -15,32 +15,40 @@ export default () => (
       />
       <meta name="theme-color" content="white" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@evilrabbit_" />
-      <meta name="twitter:creator" content="@evilrabbit_" />
-      <meta name="twitter:title" content="Evil Rabbit" />
-      <meta name="twitter:description" content="Head of Design at ZEIT" />
+      <meta name="twitter:site" content="@joshpitzalis" />
+      <meta name="twitter:creator" content="@joshpitzalis" />
+      <meta name="twitter:title" content="Josh Pitzalis" />
+      <meta
+        name="twitter:description"
+        content="Using web tech for behaviour change."
+      />
       <meta
         name="twitter:image"
-        content="https://dev.evilrabb.it/static/og-image.png"
+        content="https://www.joshpitzalis.com/static/og-image.png"
       />
-      <meta property="og:title" content="Evil Rabbit" />
+      <meta property="og:title" content="Josh Pitzalis" />
       <meta property="og:type" content="website" />
-      <meta property="og:description" content="Head of Design at ZEIT" />
-      <meta property="og:url" content="https://dev.evilrabb.it" />
+      <meta
+        property="og:description"
+        content="Using web tech for behaviour change."
+      />
+      <meta property="og:url" content="https://www.joshpitzalis.com" />
       <meta
         property="og:image"
-        content="https://dev.evilrabb.it/static/og-image.png"
+        content="https://www.joshpitzalis.com/static/og-image.png"
       />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="white" />
     </Head>
+
     <Header />
     <section className="intro">
       <h1>
         <b>Using web tech for behaviour change.</b>
       </h1>
       <h3>
-        Josh Pitzalis <b>Software Consultant</b>
+        <b style={{ color: "#86ae51" }}> Josh Pitzalis </b>
+        Software Consultant
       </h3>
       <div className="line" />
     </section>
@@ -186,16 +194,17 @@ export default () => (
         </div>
       </div>
     </section>
+    <Typeform />
     <footer
       style={{
         height: "1rem",
         backgroundColor: "black",
-        color: "white",
+        color: "#86ae51",
         textAlign: "center",
         padding: "2rem "
       }}
     >
-      <small>© Josh Pitzalis | 2014 - 2019</small>
+      <small> 2014 - 2019 © Josh Pitzalis</small>
     </footer>
     <style jsx>{`
       @keyframes fadein {
@@ -207,13 +216,13 @@ export default () => (
         }
       }
       a {
-        color: #0076ff;
+        color: #86ae51;
         text-decoration: none;
         border-bottom: 1px solid transparent;
         transition: border 0.2s ease;
       }
       a :hover {
-        border-bottom: 1px solid #0076ff;
+        border-bottom: 1px solid #86ae51;
       }
       .award {
         text-align: left;

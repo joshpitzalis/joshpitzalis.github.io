@@ -8,6 +8,10 @@
     "next": "^8.1.1-canary.19",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-simple-img": "1.13.0"
+    "react-simple-img": "1.13.0",
+    "react-typeform-embed": "^0.2.0"
+  },
+  "devDependencies": {
+    "prop-types": "^15.7.2"
   }
 }
