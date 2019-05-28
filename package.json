@@ -1,15 +1,14 @@
 {
   "scripts": {
-    "build": "next build",
     "dev": "next",
-    "now-build": "next build"
+    "build": "next build"
   },
   "dependencies": {
     "next": "^8.1.1-canary.19",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-simple-img": "1.13.0",
-    "react-typeform-embed": "^0.2.0"
+    "typeform-elements": "^0.2.2"
   },
   "devDependencies": {
     "prop-types": "^15.7.2"

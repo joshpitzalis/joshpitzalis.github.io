@@ -1,14 +1,18 @@
 {
   "version": 2,
-  "name": "www",
+  "name": "Josh Pitzalis",
   "builds": [
     {
-      "src": "package.json",
+      "src": "next.config.js",
       "use": "@now/next"
     }
   ],
   "routes": [
-    { "src": "/_next/static/(?:[^/]+/pages|chunks|runtime)/.+", "continue": true, "headers": { "cache-control": "immutable,max-age=31536000" } },
+    {
+      "src": "/_next/static/(?:[^/]+/pages|chunks|runtime)/.+",
+      "continue": true,
+      "headers": { "cache-control": "immutable,max-age=31536000" }
+    },
     { "handle": "filesystem" }
   ]
 }

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default () => (
   <header>
-    <div className="wrapper">
+    <div className="wrapper sans-serif">
       <div className="logotype">
         <svg
           height="16"
@@ -26,9 +26,21 @@ export default () => (
       <div className="theme">
         {/* <p>2019</p> */}
         <p>
-          <Link href="https://twitter.com/evilrabbit_">
-            <a target="_blank">@joshpitzalis</a>
+          <Link href="/">
+            <a>Work</a>
           </Link>
+          <Link href="/hire">
+            <a>Hire Me</a>
+          </Link>
+          <Link href="/now">
+            <a>Now</a>
+          </Link>
+          <Link href="http://learninglog.svbtle.com">
+            <a>Blog</a>
+          </Link>
+          {/* <Link href="https://twitter.com/joshpitzalis">
+            <a target="_blank">@joshpitzalis</a>
+          </Link> */}
         </p>
       </div>
     </div>
